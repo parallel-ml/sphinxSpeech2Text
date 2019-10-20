@@ -6,7 +6,7 @@ testfiles/filtered.wav
 testfiles/noisy.wav
 output/*.txt
 output/*.log
-
+/output/
 #
 # Prerequisites
 *.d
