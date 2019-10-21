@@ -6,11 +6,14 @@
 
 int main(void) {
     struct timespec start, end;
-
+    if (getenv("SPEECH_RECOGNITION") == NULL) {
+	system("echo Please set the SPEECH_RECOGNITION environment variable to point to the git repository");
+	return 1;
+    }
     system("export LD_LIBRARY_PATH=/usr/local/lib");
-    system("aplay ~/sphinxSpeech2Text/beep-07.wav");
+    system("aplay $SPEECH_RECOGNITION/beep-07.wav");
     system("arecord --format=S16_LE --duration=5 -r 16000 --file-type=wav testfiles/noisy.wav");
-    system("aplay ~/sphinxSpeech2Text/beep-08b.wav");
+    system("aplay $SPEECH_RECOGNITION/beep-08b.wav");
     system("echo done recording...");
     system("python testfiles/noiseClean.py");
     system("echo done cleaning...");
