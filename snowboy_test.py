@@ -1,4 +1,6 @@
 import snowboydecoder
+from record import start_recording
+from noise_filter import noise_filter
 import os
 import sys
 import signal
@@ -6,7 +8,10 @@ import signal
 interrupted = False
 
 def detected():
-    print("detected")
+    data, open_wave = start_recording()
+    noise_filter(data, open_wave)
+    global interrupted
+    interrupted = True # signal to the detector to stop after first detection
 
 def signal_handler(signal, frame):
     global interrupted
