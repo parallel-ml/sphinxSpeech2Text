@@ -10,7 +10,7 @@ import wave
 THRESHOLD = 500
 CHUNK_SIZE = 1024
 FORMAT = pyaudio.paInt16
-RATE = 16000
+RATE = 44100
 
 def is_silent(snd_data):
     "Returns 'True' if below the 'silent' threshold"
@@ -118,5 +118,5 @@ def record_to_file(path):
     return (data, wf)
 
 def start_recording():
-    return record_to_file('demo.wav') # returns raw data AND OPEN wave file
+    return record_to_file('./testfiles/raw_recording.wav') # returns raw data AND OPEN wave file
     
