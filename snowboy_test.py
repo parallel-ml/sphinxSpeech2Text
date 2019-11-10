@@ -6,7 +6,7 @@ import sys
 import signal
 
 interrupted = False
-
+kill_script = False
 def detected():
     data, open_wave = start_recording()
     noise_filter(data, open_wave)
@@ -16,6 +16,9 @@ def detected():
 def signal_handler(signal, frame):
     global interrupted
     interrupted = True
+    
+    global kill_script
+    kill_script = True
 
 
 def interrupt_callback():
@@ -33,4 +36,7 @@ print('Listening... Press Ctrl+C to exit')
 detector.start(detected_callback=detected,
                interrupt_check=interrupt_callback,
                sleep_time=0.03)
-
+if kill_script:
+    sys.exit(1) # the user hit cntrl-c
+else:
+    sys.exit(0) # the user did not hit cntrl-c

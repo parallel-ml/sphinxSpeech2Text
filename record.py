@@ -10,8 +10,8 @@ import wave
 THRESHOLD = 500
 CHUNK_SIZE = 1024
 FORMAT = pyaudio.paInt16
-RATE = 44100
-
+RATE = 16000
+AMOUNT_OF_SILENCE = 30 # represents an arbitrary unit. the greater this value, the "longer" period of constant silence is required before the recording stops
 def is_silent(snd_data):
     "Returns 'True' if below the 'silent' threshold"
     return max(snd_data) < THRESHOLD
@@ -73,7 +73,7 @@ def record():
         frames_per_buffer=CHUNK_SIZE)
 
     num_silent = 0
-    snd_started = False
+    snd_started = False # if true, the recording will not wait for the user to start talking
 
     r = array('h')
 
@@ -87,11 +87,12 @@ def record():
         silent = is_silent(snd_data)
 
         if silent and snd_started:
-            num_silent += 1
+            num_silent += 1 # leaky bucket
+        elif not silent and snd_started:
+            num_silent -= 1 # leaky bucket
         elif not silent and not snd_started:
             snd_started = True
-
-        if snd_started and num_silent > 30:
+        if snd_started and num_silent > AMOUNT_OF_SILENCE:
             break
 
     sample_width = p.get_sample_size(FORMAT)

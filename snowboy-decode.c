@@ -12,21 +12,20 @@ int main(void) {
     }
     system("export LD_LIBRARY_PATH=/usr/local/lib");
     system("echo Say Klauba..");
-    system("python snowboy_test.py");
-    system("echo done cleaning...");
-    clock_gettime(CLOCK_REALTIME, &start);
-    system("\
-        pocketsphinx_continuous \
-        -infile testfiles/noisy.wav \
-        -dict dicts/3651.dic \
-        -lm dicts/3651.lm \
-        2>./output/unwanted-stuff.log | tee ./output/words.txt");
-    // pocketsphinx_continuous -infile testfiles/speech.wav -dict dicts/8050.dic -lm dicts/8050.lm 2>./output/unwanted-stuff.log | tee ./output/words.txt
-    system("echo done decoding...");
-    clock_gettime(CLOCK_REALTIME, &end);
-    double time_spent = (end.tv_sec - start.tv_sec) +
-						(end.tv_nsec - start.tv_nsec) / BILLION;
-    char *timerOutput = malloc(25);
-    sprintf(timerOutput, "echo Time Elapsed: %f\n", time_spent);
-    system(timerOutput);
+    while (system("python snowboy_test.py") == 0) {
+        system("echo done cleaning...");
+        clock_gettime(CLOCK_REALTIME, &start);
+        system("\
+            pocketsphinx_continuous \
+            -infile ./testfiles/filtered.wav \
+            2>./output/unwanted-stuff.log | tee ./output/words.txt");
+        system("echo done decoding...");
+        clock_gettime(CLOCK_REALTIME, &end);
+        double time_spent = (end.tv_sec - start.tv_sec) +
+                            (end.tv_nsec - start.tv_nsec) / BILLION;
+        char *timerOutput = malloc(25);
+        sprintf(timerOutput, "echo Time Elapsed: %f\n", time_spent);
+        system(timerOutput);
+        free(timerOutput);
+    }
 }

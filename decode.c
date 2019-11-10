@@ -20,7 +20,7 @@ int main(void) {
     clock_gettime(CLOCK_REALTIME, &start);
     system("\
         pocketsphinx_continuous \
-        -infile testfiles/noisy.wav \
+        -infile testfiles/filtered.wav \
         -dict dicts/3651.dic \
         -lm dicts/3651.lm \
         2>./output/unwanted-stuff.log | tee ./output/words.txt");
