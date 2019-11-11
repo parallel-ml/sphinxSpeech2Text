@@ -30,7 +30,7 @@ def interrupt_callback():
 signal.signal(signal.SIGINT, signal_handler)
 
 detector = snowboydecoder.HotwordDetector("Klauba.pmdl", sensitivity=0.5)
-print('Listening... Press Ctrl+C to exit')
+print('Listening for Klauba...')
 
 # main loop
 detector.start(detected_callback=detected,

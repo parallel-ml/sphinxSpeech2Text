@@ -11,15 +11,16 @@ int main(void) {
 	return 1;
     }
     system("export LD_LIBRARY_PATH=/usr/local/lib");
-    system("echo Say Klauba..");
     while (system("python snowboy_test.py") == 0) {
-        system("echo done cleaning...");
+        system("echo Noise reduction complete...");
+        system("echo Starting to decode...");
         clock_gettime(CLOCK_REALTIME, &start);
         system("\
             pocketsphinx_continuous \
-            -infile ./testfiles/filtered.wav \
+            -infile ./testfiles/raw_recording.wav \
+            -remove_noise yes \
             2>./output/unwanted-stuff.log | tee ./output/words.txt");
-        system("echo done decoding...");
+        system("echo Done decoding...");
         clock_gettime(CLOCK_REALTIME, &end);
         double time_spent = (end.tv_sec - start.tv_sec) +
                             (end.tv_nsec - start.tv_nsec) / BILLION;
