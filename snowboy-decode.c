@@ -19,6 +19,8 @@ int main(void) {
             pocketsphinx_continuous \
             -infile ./testfiles/raw_recording.wav \
             -remove_noise yes \
+            -lm ./corpus/Corpus_V1/2619.lm \
+            -dict ./corpus/Corpus_V1/2619.dic \
             2>./output/unwanted-stuff.log | tee ./output/words.txt");
         system("echo Done decoding...");
         clock_gettime(CLOCK_REALTIME, &end);
