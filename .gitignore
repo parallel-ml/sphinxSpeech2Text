@@ -8,7 +8,8 @@ testfiles/noisy.wav
 output/*.txt
 output/*.log
 /output/
-#
+# swap files
+*.swp
 # Prerequisites
 *.d
 
