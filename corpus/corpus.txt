@@ -1,5 +1,6 @@
 show me to room 2337
 how do i get to room 1320
+Show me to room 2116W
 how are you today?
 Klauba, how do I get to the atrium?
 Where am I?
@@ -9,6 +10,9 @@ Klauba, what room am I in?
 Go forward
 Go backward
 Stop
+Stop moving
+Klauba, stop
+Sto moving
 Go left
 Go Right
 Move left

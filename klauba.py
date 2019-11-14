@@ -8,8 +8,13 @@ import signal
 interrupted = False
 kill_script = False
 def detected():
+    print("Starting recording")
     data, open_wave = start_recording()
-    noise_filter(data, open_wave)
+    open_wave.close()
+    print("Recording complete")
+    # print("Starting noise filter")
+    # noise_filter(data, open_wave)
+    # print("Noise filter complete")
     global interrupted
     interrupted = True # signal to the detector to stop after first detection
 

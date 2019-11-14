@@ -2,6 +2,7 @@ output/unwanted-stuff.log
 output/words.txt
 ._*
 decode
+snowboy-decode
 testfiles/filtered.wav
 testfiles/noisy.wav
 output/*.txt

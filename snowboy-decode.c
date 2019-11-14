@@ -11,8 +11,7 @@ int main(void) {
 	return 1;
     }
     system("export LD_LIBRARY_PATH=/usr/local/lib");
-    while (system("python snowboy_test.py") == 0) {
-        system("echo Noise reduction complete...");
+    while (system("python klauba.py") == 0) {
         system("echo Starting to decode...");
         clock_gettime(CLOCK_REALTIME, &start);
         system("\
@@ -23,12 +22,12 @@ int main(void) {
             -dict ./corpus/Corpus_V1/2619.dic \
             2>./output/unwanted-stuff.log | tee ./output/words.txt");
         system("echo Done decoding...");
-        clock_gettime(CLOCK_REALTIME, &end);
-        double time_spent = (end.tv_sec - start.tv_sec) +
-                            (end.tv_nsec - start.tv_nsec) / BILLION;
-        char *timerOutput = malloc(25);
-        sprintf(timerOutput, "echo Time Elapsed: %f\n", time_spent);
-        system(timerOutput);
-        free(timerOutput);
+ //       clock_gettime(CLOCK_REALTIME, &end);
+ //       double time_spent = (end.tv_sec - start.tv_sec) +
+ //                           (end.tv_nsec - start.tv_nsec) / BILLION;
+ //       char *timerOutput = malloc(25);
+ //       sprintf(timerOutput, "echo Time Elapsed: %f\n", time_spent);
+ //       system(timerOutput);
+//        free(timerOutput);
     }
 }

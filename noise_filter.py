@@ -45,7 +45,6 @@ def noise_filter(data, wf_object): # assumes the object is open
 
     # Extract Raw Audio from multi-channel Wav File
     signal = data
-    wf_object.close()
     channels = interpret_wav(signal, nFrames, nChannels, ampWidth, True)
 
     # get window size
