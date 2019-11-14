@@ -1,0 +1,27 @@
+show me to room 2337
+how do i get to room 1320
+how are you today?
+Klauba, how do I get to the atrium?
+Where am I?
+Klauba, where am I?
+What room am I in?
+Klauba, what room am I in?
+Go forward
+Go backward
+Stop
+Go left
+Go Right
+Move left
+Move right
+Move forward
+Move backward
+Hi Klauba
+Hello Klauba
+How are you today, Klauba?
+What building am I in?
+How do I get to Klaus room 1116E?
+How do I get to 1116W?
+What building am I in?
+How do I get to room 1443?
+How do I get to room 2108?
+How do I get to meeting room 3100?
