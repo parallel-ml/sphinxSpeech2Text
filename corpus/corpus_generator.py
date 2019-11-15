@@ -3,7 +3,7 @@ templates = [
     "How do I get to {{ROOM}}",
     "How do I get to room {{ROOM}}",
     "Show me to {{ROOM}}",
-    "Where is {{ROOM}}"
+    "Where is {{ROOM}}",
     "Take me to room {{ROOM}}",
     "Take me to {{ROOM}}"
 ]
