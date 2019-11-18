@@ -20,7 +20,7 @@ int main(void) {
             -remove_noise yes \
             -lm ./corpus/Corpus_V2/1586.lm \
             -dict ./corpus/Corpus_V2/1586.dic \
-            2>./output/unwanted-stuff.log | tee ./output/words.txt");
+            2>./output/unwanted-stuff.log | python process-output.py");
         system("echo Done decoding...");
  //       clock_gettime(CLOCK_REALTIME, &end);
  //       double time_spent = (end.tv_sec - start.tv_sec) +
