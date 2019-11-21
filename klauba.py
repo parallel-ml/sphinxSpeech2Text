@@ -8,6 +8,8 @@ import signal
 interrupted = False
 kill_script = False
 def detected():
+    global detector
+    detector.terminate()
     print("Starting recording")
     data, open_wave = start_recording()
     open_wave.close()

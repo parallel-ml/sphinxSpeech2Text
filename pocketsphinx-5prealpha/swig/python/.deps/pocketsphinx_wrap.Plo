@@ -1,74 +1,77 @@
 pocketsphinx_wrap.lo: pocketsphinx_wrap.c /usr/include/stdc-predef.h \
  /usr/include/python2.7/Python.h /usr/include/python2.7/patchlevel.h \
  /usr/include/python2.7/pyconfig.h \
- /usr/include/x86_64-linux-gnu/python2.7/pyconfig.h \
+ /usr/include/arm-linux-gnueabihf/python2.7/pyconfig.h \
  /usr/include/python2.7/pymacconfig.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/5/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/5/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
  /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/stdio.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/5/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/libio.h \
  /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/string.h \
- /usr/include/xlocale.h /usr/include/x86_64-linux-gnu/bits/string.h \
- /usr/include/x86_64-linux-gnu/bits/string2.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/string3.h /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/5/include/stdarg.h \
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio2.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/bits/string.h \
+ /usr/include/arm-linux-gnueabihf/bits/string2.h /usr/include/stdlib.h \
+ /usr/include/arm-linux-gnueabihf/bits/string3.h /usr/include/errno.h \
+ /usr/include/arm-linux-gnueabihf/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/arm-linux-gnueabihf/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/sigset.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/select2.h \
- /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
- /usr/include/x86_64-linux-gnu/bits/unistd.h /usr/include/assert.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/types.h /usr/include/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/bits/select2.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib.h /usr/include/unistd.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ /usr/include/arm-linux-gnueabihf/bits/unistd.h /usr/include/assert.h \
  /usr/include/python2.7/pyport.h /usr/include/inttypes.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/huge_val.h \
- /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
- /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
- /usr/include/x86_64-linux-gnu/bits/inf.h \
- /usr/include/x86_64-linux-gnu/bits/nan.h \
- /usr/include/x86_64-linux-gnu/bits/mathdef.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- /usr/include/x86_64-linux-gnu/sys/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/sys/stat.h \
- /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/math.h /usr/include/arm-linux-gnueabihf/bits/math-vector.h \
+ /usr/include/arm-linux-gnueabihf/bits/libm-simd-decl-stubs.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_val.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_valf.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_vall.h \
+ /usr/include/arm-linux-gnueabihf/bits/inf.h \
+ /usr/include/arm-linux-gnueabihf/bits/nan.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathdef.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathinline.h \
+ /usr/include/arm-linux-gnueabihf/sys/time.h \
+ /usr/include/arm-linux-gnueabihf/bits/timex.h \
+ /usr/include/arm-linux-gnueabihf/sys/stat.h \
+ /usr/include/arm-linux-gnueabihf/bits/stat.h \
  /usr/include/python2.7/pymath.h /usr/include/python2.7/pymem.h \
  /usr/include/python2.7/object.h /usr/include/python2.7/objimpl.h \
  /usr/include/python2.7/pydebug.h /usr/include/python2.7/unicodeobject.h \
- /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+ /usr/include/ctype.h /usr/include/arm-linux-gnueabihf/bits/wchar2.h \
  /usr/include/python2.7/intobject.h /usr/include/python2.7/boolobject.h \
  /usr/include/python2.7/longobject.h /usr/include/python2.7/floatobject.h \
  /usr/include/python2.7/complexobject.h \
@@ -98,38 +101,39 @@ pocketsphinx_wrap.lo: pocketsphinx_wrap.c /usr/include/stdc-predef.h \
  /usr/include/python2.7/eval.h /usr/include/python2.7/pyctype.h \
  /usr/include/python2.7/pystrtod.h /usr/include/python2.7/pystrcmp.h \
  /usr/include/python2.7/dtoa.h /usr/include/python2.7/pyfpe.h \
- /usr/include/signal.h /usr/include/x86_64-linux-gnu/bits/signum.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo.h \
- /usr/include/x86_64-linux-gnu/bits/sigaction.h \
- /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
- /usr/include/x86_64-linux-gnu/bits/sigstack.h \
- /usr/include/x86_64-linux-gnu/sys/ucontext.h \
- /usr/include/x86_64-linux-gnu/bits/sigthread.h /usr/include/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /usr/include/signal.h /usr/include/arm-linux-gnueabihf/bits/signum.h \
+ /usr/include/arm-linux-gnueabihf/bits/siginfo.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigaction.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigcontext.h \
+ /usr/include/arm-linux-gnueabihf/asm/sigcontext.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigstack.h \
+ /usr/include/arm-linux-gnueabihf/sys/ucontext.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigthread.h /usr/include/setjmp.h \
+ /usr/include/arm-linux-gnueabihf/bits/setjmp.h \
+ /usr/include/arm-linux-gnueabihf/bits/setjmp2.h \
  ../../include/pocketsphinx.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/logmath.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fe.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/feat.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmn.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/agc.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/logmath.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fe.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/feat.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmn.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/agc.h \
  ../../include/pocketsphinx_export.h ../../include/cmdln_macro.h \
  ../../include/ps_lattice.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ngram_model.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ngram_model.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h \
  ../../include/ps_mllr.h ../../include/ps_search.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fsg_model.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h \
- /home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fsg_model.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/5/include/float.h
 
 /usr/include/stdc-predef.h:
 
@@ -139,45 +143,45 @@ pocketsphinx_wrap.lo: pocketsphinx_wrap.c /usr/include/stdc-predef.h \
 
 /usr/include/python2.7/pyconfig.h:
 
-/usr/include/x86_64-linux-gnu/python2.7/pyconfig.h:
+/usr/include/arm-linux-gnueabihf/python2.7/pyconfig.h:
 
 /usr/include/python2.7/pymacconfig.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h:
+/usr/lib/gcc/arm-linux-gnueabihf/5/include-fixed/limits.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h:
+/usr/lib/gcc/arm-linux-gnueabihf/5/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
 /usr/include/features.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+/usr/include/arm-linux-gnueabihf/bits/posix1_lim.h:
 
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+/usr/include/arm-linux-gnueabihf/bits/local_lim.h:
 
 /usr/include/linux/limits.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/usr/include/arm-linux-gnueabihf/bits/posix2_lim.h:
 
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+/usr/include/arm-linux-gnueabihf/bits/xopen_lim.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+/usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
 
 /usr/include/stdio.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h:
+/usr/lib/gcc/arm-linux-gnueabihf/5/include/stddef.h:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
+/usr/include/arm-linux-gnueabihf/bits/types.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/arm-linux-gnueabihf/bits/typesizes.h:
 
 /usr/include/libio.h:
 
@@ -185,87 +189,87 @@ pocketsphinx_wrap.lo: pocketsphinx_wrap.c /usr/include/stdc-predef.h \
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h:
+/usr/lib/gcc/arm-linux-gnueabihf/5/include/stdarg.h:
 
-/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+/usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+/usr/include/arm-linux-gnueabihf/bits/stdio2.h:
 
 /usr/include/string.h:
 
 /usr/include/xlocale.h:
 
-/usr/include/x86_64-linux-gnu/bits/string.h:
+/usr/include/arm-linux-gnueabihf/bits/string.h:
 
-/usr/include/x86_64-linux-gnu/bits/string2.h:
-
-/usr/include/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+/usr/include/arm-linux-gnueabihf/bits/string2.h:
 
 /usr/include/stdlib.h:
 
-/usr/include/x86_64-linux-gnu/bits/string3.h:
+/usr/include/arm-linux-gnueabihf/bits/string3.h:
 
 /usr/include/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/errno.h:
+/usr/include/arm-linux-gnueabihf/bits/errno.h:
 
 /usr/include/linux/errno.h:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/usr/include/arm-linux-gnueabihf/asm/errno.h:
 
 /usr/include/asm-generic/errno.h:
 
 /usr/include/asm-generic/errno-base.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+/usr/include/arm-linux-gnueabihf/bits/waitflags.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/usr/include/arm-linux-gnueabihf/bits/waitstatus.h:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/usr/include/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/byteswap.h:
+
+/usr/include/arm-linux-gnueabihf/bits/byteswap-16.h:
+
+/usr/include/arm-linux-gnueabihf/sys/types.h:
 
 /usr/include/time.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
+/usr/include/arm-linux-gnueabihf/sys/select.h:
 
-/usr/include/x86_64-linux-gnu/bits/select.h:
+/usr/include/arm-linux-gnueabihf/bits/select.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigset.h:
+/usr/include/arm-linux-gnueabihf/bits/sigset.h:
 
-/usr/include/x86_64-linux-gnu/bits/time.h:
+/usr/include/arm-linux-gnueabihf/bits/time.h:
 
-/usr/include/x86_64-linux-gnu/bits/select2.h:
+/usr/include/arm-linux-gnueabihf/bits/select2.h:
 
-/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+/usr/include/arm-linux-gnueabihf/sys/sysmacros.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+/usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h:
 
 /usr/include/alloca.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+/usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+/usr/include/arm-linux-gnueabihf/bits/stdlib.h:
 
 /usr/include/unistd.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+/usr/include/arm-linux-gnueabihf/bits/posix_opt.h:
 
-/usr/include/x86_64-linux-gnu/bits/environments.h:
+/usr/include/arm-linux-gnueabihf/bits/environments.h:
 
-/usr/include/x86_64-linux-gnu/bits/confname.h:
+/usr/include/arm-linux-gnueabihf/bits/confname.h:
 
 /usr/include/getopt.h:
 
-/usr/include/x86_64-linux-gnu/bits/unistd.h:
+/usr/include/arm-linux-gnueabihf/bits/unistd.h:
 
 /usr/include/assert.h:
 
@@ -273,37 +277,41 @@ pocketsphinx_wrap.lo: pocketsphinx_wrap.c /usr/include/stdc-predef.h \
 
 /usr/include/inttypes.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h:
+/usr/lib/gcc/arm-linux-gnueabihf/5/include/stdint.h:
 
 /usr/include/stdint.h:
 
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
+/usr/include/arm-linux-gnueabihf/bits/wchar.h:
 
 /usr/include/math.h:
 
-/usr/include/x86_64-linux-gnu/bits/huge_val.h:
+/usr/include/arm-linux-gnueabihf/bits/math-vector.h:
 
-/usr/include/x86_64-linux-gnu/bits/huge_valf.h:
+/usr/include/arm-linux-gnueabihf/bits/libm-simd-decl-stubs.h:
 
-/usr/include/x86_64-linux-gnu/bits/huge_vall.h:
+/usr/include/arm-linux-gnueabihf/bits/huge_val.h:
 
-/usr/include/x86_64-linux-gnu/bits/inf.h:
+/usr/include/arm-linux-gnueabihf/bits/huge_valf.h:
 
-/usr/include/x86_64-linux-gnu/bits/nan.h:
+/usr/include/arm-linux-gnueabihf/bits/huge_vall.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathdef.h:
+/usr/include/arm-linux-gnueabihf/bits/inf.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+/usr/include/arm-linux-gnueabihf/bits/nan.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathinline.h:
+/usr/include/arm-linux-gnueabihf/bits/mathdef.h:
 
-/usr/include/x86_64-linux-gnu/sys/time.h:
+/usr/include/arm-linux-gnueabihf/bits/mathcalls.h:
 
-/usr/include/x86_64-linux-gnu/bits/timex.h:
+/usr/include/arm-linux-gnueabihf/bits/mathinline.h:
 
-/usr/include/x86_64-linux-gnu/sys/stat.h:
+/usr/include/arm-linux-gnueabihf/sys/time.h:
 
-/usr/include/x86_64-linux-gnu/bits/stat.h:
+/usr/include/arm-linux-gnueabihf/bits/timex.h:
+
+/usr/include/arm-linux-gnueabihf/sys/stat.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stat.h:
 
 /usr/include/python2.7/pymath.h:
 
@@ -319,7 +327,7 @@ pocketsphinx_wrap.lo: pocketsphinx_wrap.c /usr/include/stdc-predef.h \
 
 /usr/include/ctype.h:
 
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+/usr/include/arm-linux-gnueabihf/bits/wchar2.h:
 
 /usr/include/python2.7/intobject.h:
 
@@ -423,47 +431,49 @@ pocketsphinx_wrap.lo: pocketsphinx_wrap.c /usr/include/stdc-predef.h \
 
 /usr/include/signal.h:
 
-/usr/include/x86_64-linux-gnu/bits/signum.h:
+/usr/include/arm-linux-gnueabihf/bits/signum.h:
 
-/usr/include/x86_64-linux-gnu/bits/siginfo.h:
+/usr/include/arm-linux-gnueabihf/bits/siginfo.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+/usr/include/arm-linux-gnueabihf/bits/sigaction.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+/usr/include/arm-linux-gnueabihf/bits/sigcontext.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+/usr/include/arm-linux-gnueabihf/asm/sigcontext.h:
 
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+/usr/include/arm-linux-gnueabihf/bits/sigstack.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+/usr/include/arm-linux-gnueabihf/sys/ucontext.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigthread.h:
 
 /usr/include/setjmp.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/usr/include/arm-linux-gnueabihf/bits/setjmp.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp2.h:
+/usr/include/arm-linux-gnueabihf/bits/setjmp2.h:
 
 ../../include/pocketsphinx.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/logmath.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/logmath.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fe.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fe.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/feat.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/feat.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmn.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmn.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/agc.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/agc.h:
 
 ../../include/pocketsphinx_export.h:
 
@@ -471,24 +481,24 @@ pocketsphinx_wrap.lo: pocketsphinx_wrap.c /usr/include/stdc-predef.h \
 
 ../../include/ps_lattice.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ngram_model.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ngram_model.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h:
 
 ../../include/ps_mllr.h:
 
 ../../include/ps_search.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fsg_model.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fsg_model.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h:
 
-/home/navbryce/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h:
+/usr/lib/gcc/arm-linux-gnueabihf/5/include/float.h:
