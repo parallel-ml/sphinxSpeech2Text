@@ -22,12 +22,5 @@ int main(void) {
             -dict ./corpus/Corpus_V2/1586.dic \
             2>./output/unwanted-stuff.log | python process-output.py");
         system("echo Done decoding...");
- //       clock_gettime(CLOCK_REALTIME, &end);
- //       double time_spent = (end.tv_sec - start.tv_sec) +
- //                           (end.tv_nsec - start.tv_nsec) / BILLION;
- //       char *timerOutput = malloc(25);
- //       sprintf(timerOutput, "echo Time Elapsed: %f\n", time_spent);
- //       system(timerOutput);
-//        free(timerOutput);
     }
 }

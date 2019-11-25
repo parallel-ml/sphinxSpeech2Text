@@ -7,11 +7,11 @@ from struct import pack
 import pyaudio
 import wave
 
-THRESHOLD = 700
+THRESHOLD = 1100
 CHUNK_SIZE = 1024
 FORMAT = pyaudio.paInt16
 RATE = 16000
-AMOUNT_OF_SILENCE = 10 # represents an arbitrary unit. the greater this value, the "longer" period of constant silence is required before the recording stops
+AMOUNT_OF_SILENCE = 15 # represents an arbitrary unit. the greater this value, the "longer" period of constant silence is required before the recording stops
 def is_silent(snd_data):
     "Returns 'True' if below the 'silent' threshold"
     return max(snd_data) < THRESHOLD
