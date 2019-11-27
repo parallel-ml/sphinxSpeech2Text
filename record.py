@@ -5,6 +5,7 @@ from sys import byteorder
 from array import array
 from struct import pack
 import pyaudio
+import signal
 import wave
 
 THRESHOLD = 1100
@@ -71,9 +72,16 @@ def record():
     stream = p.open(format=FORMAT, channels=1, rate=RATE,
         input=True, output=True,
         frames_per_buffer=CHUNK_SIZE)
-
     num_silent = 0
     snd_started = False # if true, the recording will not wait for the user to start talking
+    
+    # handle the user force closing the script without the required amount of silence
+    global interrupted 
+    interrupted = False 
+    def interrupt_handler(signal, frame):
+        global interrupted 
+        interrupted = True
+    signal.signal(signal.SIGINT, interrupt_handler)
 
     r = array('h')
 
@@ -89,11 +97,12 @@ def record():
         if silent and snd_started:
             num_silent += 1 # leaky bucket
         elif not silent and snd_started:
-            num_silent -= 1 # leaky bucket
+            if num_silent > 0:
+                num_silent -= 1 # leaky bucket
         elif not silent and not snd_started:
             print("User started to speak")
             snd_started = True
-        if snd_started and num_silent > AMOUNT_OF_SILENCE:
+        if (snd_started and num_silent > AMOUNT_OF_SILENCE) or interrupted:
             break
 
     sample_width = p.get_sample_size(FORMAT)
