@@ -9,7 +9,6 @@ Go backward
 Stop
 Stop moving
 Klauba, stop
-Sto moving
 Go left
 Go Right
 Move left

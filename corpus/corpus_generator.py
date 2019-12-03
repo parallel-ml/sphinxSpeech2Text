@@ -5,7 +5,9 @@ templates = [
     "Show me to {{ROOM}}",
     "Where is {{ROOM}}",
     "Take me to room {{ROOM}}",
-    "Take me to {{ROOM}}"
+    "Take me to {{ROOM}}",
+    "Move to room {{ROOM}}",
+    "Move to {{ROOM}}"
 ]
 
 def append_general_phrases(corpus_file):

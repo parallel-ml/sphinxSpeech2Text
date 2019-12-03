@@ -18,8 +18,8 @@ int main(void) {
             pocketsphinx_continuous \
             -infile ./testfiles/raw_recording.wav \
             -remove_noise yes \
-            -lm ./corpus/Corpus_V2/1586.lm \
-            -dict ./corpus/Corpus_V2/1586.dic \
+            -lm ./corpus/Corpus_V3/100.lm \
+            -dict ./corpus/Corpus_V3/100.dic \
             2>./output/unwanted-stuff.log | python process-output.py");
         system("echo Done decoding...");
     }

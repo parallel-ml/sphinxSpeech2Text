@@ -9,7 +9,7 @@ interrupted = False
 kill_script = False
 def detected():
     global detector
-    detector.terminate() # THIS LINE CAN CREATE HANGS ON CERTAIN MACHINES (COMMENT OUT IF THE SCRIPT HANGS)
+    #detector.terminate() # THIS LINE CAN CREATE HANGS ON CERTAIN MACHINES (COMMENT OUT IF THE SCRIPT HANGS)
     print("Starting recording")
     data, open_wave = start_recording()
     open_wave.close()
