@@ -20,7 +20,7 @@ int main(void) {
             -remove_noise yes \
             -lm ./corpus/Corpus_V3/100.lm \
             -dict ./corpus/Corpus_V3/100.dic \
-            2>./output/unwanted-stuff.log | sudo -i python $SPEECH_RECOGNITION/process-output.py");
+            2>./output/unwanted-stuff.log | python $SPEECH_RECOGNITION/process-output.py");
         system("echo Done decoding...");
     }
 }

@@ -1,7 +1,6 @@
 import sys
 import os
 from datetime import datetime
-import small_model
 
 speech_rec_lib = os.environ['SPEECH_RECOGNITION']
 def log_speech_input(speech_input):
@@ -15,7 +14,7 @@ def log_speech_input(speech_input):
 def process_speech_input(speech_input):
     print(speech_input)
     log_speech_input(speech_input)
-    small_model.wrapper_func(speech_input)
+
 if __name__ == "__main__":
     speech_input = sys.stdin.read()
     process_speech_input(speech_input)
