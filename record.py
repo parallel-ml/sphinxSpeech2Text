@@ -129,7 +129,7 @@ def record_to_file(path):
     return (data, wf)
 
 def start_recording():
-    return record_to_file('./testfiles/raw_recording.wav') # returns raw data AND OPEN wave file
+    return record_to_file('./inputs/raw_recording.wav') # returns raw data AND OPEN wave file
 if __name__ == "__main__":
     start_recording()
 

@@ -1,6 +1,5 @@
 import snowboydecoder
 from record import start_recording
-from noise_filter import noise_filter
 import os
 import sys
 import signal
@@ -9,14 +8,11 @@ interrupted = False
 kill_script = False
 def detected():
     global detector
-    detector.terminate() # THIS LINE CAN CREATE HANGS ON CERTAIN MACHINES (COMMENT OUT IF THE SCRIPT HANGS)
+    # detector.terminate() # THIS LINE CAN CREATE HANGS ON CERTAIN MACHINES (COMMENT OUT IF THE SCRIPT HANGS)
     print("Starting recording")
     data, open_wave = start_recording()
     open_wave.close()
     print("Recording complete")
-    # print("Starting noise filter")
-    # noise_filter(data, open_wave)
-    # print("Noise filter complete")
     global interrupted
     interrupted = True # signal to the detector to stop after first detection
 
@@ -36,7 +32,7 @@ def interrupt_callback():
 # capture SIGINT signal, e.g., Ctrl+C
 signal.signal(signal.SIGINT, signal_handler)
 
-detector = snowboydecoder.HotwordDetector("Klauba.pmdl", sensitivity=0.5)
+detector = snowboydecoder.HotwordDetector("./models/Klauba.pmdl", sensitivity=0.5)
 print('Listening for Klauba...')
 
 # main loop

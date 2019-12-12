@@ -16,10 +16,10 @@ int main(void) {
         clock_gettime(CLOCK_REALTIME, &start);
         system("\
             pocketsphinx_continuous \
-            -infile ./testfiles/raw_recording.wav \
+            -infile ./inputs/raw_recording.wav \
             -remove_noise yes \
-            -lm ./corpus/Corpus_V3/100.lm \
-            -dict ./corpus/Corpus_V3/100.dic \
+            -lm ./models/corpus/Corpus_V3/100.lm \
+            -dict ./models/corpus/Corpus_V3/100.dic \
             2>./output/unwanted-stuff.log | python $SPEECH_RECOGNITION/process-output.py");
         system("echo Done decoding...");
     }

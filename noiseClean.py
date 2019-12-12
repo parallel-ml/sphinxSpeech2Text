@@ -5,8 +5,8 @@ import sys
 import math
 import contextlib
 
-fname = 'testfiles/noisy.wav'
-outname = 'testfiles/filtered.wav'
+fname = 'inputs/noisy.wav'
+outname = 'inputs/filtered.wav'
 
 cutOffFrequency = 400.0
 
@@ -37,14 +37,15 @@ def interpret_wav(raw_bytes, n_frames, n_channels, sample_width, interleaved = T
 
     return channels
 
-def noise_filter(data, wf_object): # assumes the object is open
-    sampleRate = wf_object.getframerate()
-    ampWidth = wf_object.getsampwidth()
-    nChannels = wf_object.getnchannels()
-    nFrames = wf_object.getnframes()
+with contextlib.closing(wave.open(fname,'rb')) as spf:
+    sampleRate = spf.getframerate()
+    ampWidth = spf.getsampwidth()
+    nChannels = spf.getnchannels()
+    nFrames = spf.getnframes()
 
     # Extract Raw Audio from multi-channel Wav File
-    signal = data
+    signal = spf.readframes(nFrames*nChannels)
+    spf.close()
     channels = interpret_wav(signal, nFrames, nChannels, ampWidth, True)
 
     # get window size
@@ -56,6 +57,6 @@ def noise_filter(data, wf_object): # assumes the object is open
     filtered = running_mean(channels[0], N).astype(channels.dtype)
 
     wav_file = wave.open(outname, "w")
-    wav_file.setparams((1, ampWidth, sampleRate, nFrames, 'NONE', 'NONE'))
+    wav_file.setparams((1, ampWidth, sampleRate, nFrames, spf.getcomptype(), spf.getcompname()))
     wav_file.writeframes(filtered.tobytes('C'))
     wav_file.close()

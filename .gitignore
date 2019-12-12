@@ -1,5 +1,5 @@
-output/unwanted-stuff.log
-output/words.txt
+output/*
+inputs/*
 ._*
 decode
 snowboy-decode
