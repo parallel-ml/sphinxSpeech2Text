@@ -32,19 +32,19 @@ mdef.lo: mdef.c /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib.h /usr/include/assert.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
  /usr/include/setjmp.h /usr/include/arm-linux-gnueabihf/bits/setjmp.h \
  /usr/include/arm-linux-gnueabihf/bits/setjmp2.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
  /usr/include/errno.h /usr/include/arm-linux-gnueabihf/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/arm-linux-gnueabihf/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  mdef.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h
 
 /usr/include/stdc-predef.h:
 
@@ -134,7 +134,7 @@ mdef.lo: mdef.c /usr/include/stdc-predef.h /usr/include/stdio.h \
 
 /usr/include/assert.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
 
 /usr/include/setjmp.h:
 
@@ -142,13 +142,13 @@ mdef.lo: mdef.c /usr/include/stdc-predef.h /usr/include/stdio.h \
 
 /usr/include/arm-linux-gnueabihf/bits/setjmp2.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
 
 /usr/include/errno.h:
 
@@ -164,6 +164,6 @@ mdef.lo: mdef.c /usr/include/stdc-predef.h /usr/include/stdio.h \
 
 mdef.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h:

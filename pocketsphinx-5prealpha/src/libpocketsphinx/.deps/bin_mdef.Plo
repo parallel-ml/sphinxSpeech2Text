@@ -15,9 +15,9 @@ bin_mdef.lo: bin_mdef.c /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/bits/string.h \
  /usr/include/arm-linux-gnueabihf/bits/string2.h /usr/include/stdlib.h \
  /usr/include/arm-linux-gnueabihf/bits/string3.h /usr/include/assert.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
  /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
  /usr/include/arm-linux-gnueabihf/bits/waitstatus.h /usr/include/endian.h \
  /usr/include/arm-linux-gnueabihf/bits/endian.h \
@@ -37,19 +37,19 @@ bin_mdef.lo: bin_mdef.c /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib.h /usr/include/setjmp.h \
  /usr/include/arm-linux-gnueabihf/bits/setjmp.h \
  /usr/include/arm-linux-gnueabihf/bits/setjmp2.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/byteorder.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/case.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/byteorder.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/case.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
  /usr/include/errno.h /usr/include/arm-linux-gnueabihf/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/arm-linux-gnueabihf/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  mdef.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h \
  bin_mdef.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h \
  ../../include/pocketsphinx_export.h
 
 /usr/include/stdc-predef.h:
@@ -102,11 +102,11 @@ bin_mdef.lo: bin_mdef.c /usr/include/stdc-predef.h /usr/include/stdio.h \
 
 /usr/include/assert.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
 
 /usr/include/arm-linux-gnueabihf/bits/waitflags.h:
 
@@ -152,13 +152,13 @@ bin_mdef.lo: bin_mdef.c /usr/include/stdc-predef.h /usr/include/stdio.h \
 
 /usr/include/arm-linux-gnueabihf/bits/setjmp2.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/byteorder.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/byteorder.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/case.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/case.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
 
 /usr/include/errno.h:
 
@@ -174,14 +174,14 @@ bin_mdef.lo: bin_mdef.c /usr/include/stdc-predef.h /usr/include/stdio.h \
 
 mdef.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h:
 
 bin_mdef.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h:
 
 ../../include/pocketsphinx_export.h:

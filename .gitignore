@@ -1,13 +1,15 @@
-output/unwanted-stuff.log
-output/words.txt
+output/*
+inputs/*
 ._*
 decode
+snowboy-decode
 testfiles/filtered.wav
 testfiles/noisy.wav
 output/*.txt
 output/*.log
-
-#
+/output/
+# swap files
+*.swp
 # Prerequisites
 *.d
 

@@ -32,13 +32,13 @@ hmm.lo: hmm.c /usr/include/stdc-predef.h /usr/include/assert.h \
  /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
  /usr/include/linux/limits.h \
  /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
  /usr/include/setjmp.h /usr/include/arm-linux-gnueabihf/bits/setjmp.h \
  /usr/include/arm-linux-gnueabihf/bits/setjmp2.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
  /usr/lib/gcc/arm-linux-gnueabihf/5/include/stdarg.h /usr/include/stdio.h \
  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
@@ -49,14 +49,14 @@ hmm.lo: hmm.c /usr/include/stdc-predef.h /usr/include/assert.h \
  /usr/include/arm-linux-gnueabihf/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  hmm.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h \
  bin_mdef.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h \
  ../../include/pocketsphinx_export.h mdef.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h
 
 /usr/include/stdc-predef.h:
 
@@ -142,7 +142,7 @@ hmm.lo: hmm.c /usr/include/stdc-predef.h /usr/include/assert.h \
 
 /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
 
 /usr/include/setjmp.h:
 
@@ -150,13 +150,13 @@ hmm.lo: hmm.c /usr/include/stdc-predef.h /usr/include/assert.h \
 
 /usr/include/arm-linux-gnueabihf/bits/setjmp2.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
 
 /usr/lib/gcc/arm-linux-gnueabihf/5/include/stdarg.h:
 
@@ -190,20 +190,20 @@ hmm.lo: hmm.c /usr/include/stdc-predef.h /usr/include/assert.h \
 
 hmm.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h:
 
 bin_mdef.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h:
 
 ../../include/pocketsphinx_export.h:
 
 mdef.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h:

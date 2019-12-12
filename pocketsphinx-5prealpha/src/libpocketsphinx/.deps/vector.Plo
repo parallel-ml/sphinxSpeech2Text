@@ -42,17 +42,17 @@ vector.lo: vector.c /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/arm-linux-gnueabihf/bits/mathdef.h \
  /usr/include/arm-linux-gnueabihf/bits/mathcalls.h \
  /usr/include/arm-linux-gnueabihf/bits/mathinline.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
  /usr/include/errno.h /usr/include/arm-linux-gnueabihf/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/arm-linux-gnueabihf/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
  /usr/include/setjmp.h /usr/include/arm-linux-gnueabihf/bits/setjmp.h \
  /usr/include/arm-linux-gnueabihf/bits/setjmp2.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
- /home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
+ /home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h \
  vector.h
 
 /usr/include/stdc-predef.h:
@@ -165,7 +165,7 @@ vector.lo: vector.c /usr/include/stdc-predef.h /usr/include/stdio.h \
 
 /usr/include/arm-linux-gnueabihf/bits/mathinline.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
 
 /usr/include/errno.h:
 
@@ -179,9 +179,9 @@ vector.lo: vector.c /usr/include/stdc-predef.h /usr/include/stdio.h \
 
 /usr/include/asm-generic/errno-base.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
 
 /usr/include/setjmp.h:
 
@@ -189,10 +189,10 @@ vector.lo: vector.c /usr/include/stdc-predef.h /usr/include/stdio.h \
 
 /usr/include/arm-linux-gnueabihf/bits/setjmp2.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
 
-/home/pi/speech2text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h:
+/home/pi/speechRec/sphinxSpeech2Text/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h:
 
 vector.h:

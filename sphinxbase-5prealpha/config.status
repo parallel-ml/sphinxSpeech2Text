@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/pi/speech2text/sphinxbase-5prealpha'
+ac_pwd='/home/pi/speechRec/sphinxSpeech2Text/sphinxbase-5prealpha'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
@@ -861,7 +861,7 @@ S["LTLIBOBJS"]=""
 S["LIBOBJS"]=""
 S["BUILD_SWIG_FALSE"]="#"
 S["BUILD_SWIG_TRUE"]=""
-S["SWIG_LIB"]="/usr/share/swig3.0"
+S["SWIG_LIB"]="/usr/share/swig/3.0.10"
 S["SWIG"]="/usr/bin/swig"
 S["PYTHON_EXTRA_LDFLAGS"]="-Xlinker -export-dynamic -Wl,-O1 -Wl,-Bsymbolic-functions"
 S["PYTHON_EXTRA_LIBS"]="-lpthread -ldl  -lutil -lm"
@@ -954,12 +954,12 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
-S["install_sh"]="${SHELL} /home/pi/speech2text/sphinxbase-5prealpha/install-sh"
-S["MAKEINFO"]="${SHELL} /home/pi/speech2text/sphinxbase-5prealpha/missing makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/pi/speech2text/sphinxbase-5prealpha/missing autoheader"
-S["AUTOMAKE"]="${SHELL} /home/pi/speech2text/sphinxbase-5prealpha/missing automake-1.15"
-S["AUTOCONF"]="${SHELL} /home/pi/speech2text/sphinxbase-5prealpha/missing autoconf"
-S["ACLOCAL"]="${SHELL} /home/pi/speech2text/sphinxbase-5prealpha/missing aclocal-1.15"
+S["install_sh"]="${SHELL} /home/pi/speechRec/sphinxSpeech2Text/sphinxbase-5prealpha/install-sh"
+S["MAKEINFO"]="${SHELL} /home/pi/speechRec/sphinxSpeech2Text/sphinxbase-5prealpha/missing makeinfo"
+S["AUTOHEADER"]="${SHELL} /home/pi/speechRec/sphinxSpeech2Text/sphinxbase-5prealpha/missing autoheader"
+S["AUTOMAKE"]="${SHELL} /home/pi/speechRec/sphinxSpeech2Text/sphinxbase-5prealpha/missing automake-1.15"
+S["AUTOCONF"]="${SHELL} /home/pi/speechRec/sphinxSpeech2Text/sphinxbase-5prealpha/missing autoconf"
+S["ACLOCAL"]="${SHELL} /home/pi/speechRec/sphinxSpeech2Text/sphinxbase-5prealpha/missing aclocal-1.15"
 S["VERSION"]="5prealpha"
 S["PACKAGE"]="sphinxbase"
 S["CYGPATH_W"]="echo"
